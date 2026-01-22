@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy World</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f0f0f0; color: #333; margin: 0; padding: 20px; }
+        h1 { color: #ff69b4; text-align: center; }
+        .candy-list { display: flex; flex-wrap: wrap; justify-content: center; }
+        .candy-item { background: white; border: 1px solid #ddd; margin: 10px; padding: 10px; width: 200px; text-align: center; }
+        img { max-width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Candy World!</h1>
+    <p>Explore delicious candies from around the world. Click on any candy for more info (links are placeholders).</p>
+    
+    <div class="candy-list">
+        <div class="candy-item">
+            <img src="https://via.placeholder.com/150?text=Chocolate+Bar" alt="Chocolate Bar">
+            <h3>Chocolate Bar</h3>
+            <p>A classic treat made from cocoa. <a href="https://en.wikipedia.org/wiki/Chocolate_bar">Learn more</a></p>
+        </div>
+        <div class="candy-item">
+            <img src="https://via.placeholder.com/150?text=Gummy+Bears" alt="Gummy Bears">
+            <h3>Gummy Bears</h3>
+            <p>Chewy, fruity bears. <a href="https://en.wikipedia.org/wiki/Gummy_bear">Learn more</a></p>
+        </div>
+        <div class="candy-item">
+            <img src="https://via.placeholder.com/150?text=Lollipop" alt="Lollipop">
+            <h3>Lollipop</h3>
+            <p>Sweet on a stick. <a href="https://en.wikipedia.org/wiki/Lollipop">Learn more</a></p>
+        </div>
+        <div class="candy-item">
+            <img src="https://via.placeholder.com/150?text=Jelly+Beans" alt="Jelly Beans">
+            <h3>Jelly Beans</h3>
+            <p>Colorful, flavored beans. <a href="https://en.wikipedia.org/wiki/Jelly_bean">Learn more</a></p>
+        </div>
+    </div>
+</body>
+</html>
